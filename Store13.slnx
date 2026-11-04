@@ -1,1 +1,19 @@
-<Solution />
+<Solution>
+  <Folder Name="/Doc/" />
+  <Folder Name="/Src/" />
+  <Folder Name="/Src/Common/">
+    <Project Path="Store13.Common/Store13.Common.csproj" />
+  </Folder>
+  <Folder Name="/Src/Core/">
+    <Project Path="Store13.Application/Store13.Application.csproj" />
+    <Project Path="Store13.Domain/Store13.Domain.csproj" />
+  </Folder>
+  <Folder Name="/Src/Infrastructure/">
+    <Project Path="Store13.Infrastructure/Store13.Infrastructure.csproj" />
+    <Project Path="Store13.Persistence/Store13.Persistence.csproj" />
+  </Folder>
+  <Folder Name="/Src/Presentation/">
+    <Project Path="Store13.Web/Store13.Web.csproj" />
+  </Folder>
+  <Folder Name="/Test/" />
+</Solution>
